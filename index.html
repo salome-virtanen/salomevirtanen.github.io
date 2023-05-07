@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latest 50 Weather Readings for Tampere</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2"></script>
+
+  </head>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="feels_like.html">Feels like</a></li>
+        <li><a href="wind_speed.html">Wind Speed</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <h1>Latest 50 Weather Readings for Tampere</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Date/Time</th>
+          <th>Temperature (Celsius)</th>
+          <th>Hummidity(%)</th>
+          <th>Wind Speed</th>
+          <th>Weather Description</th>
+        </tr>
+      </thead>
+      <tbody id="weather-data">
+      </tbody>
+    </table>
+  </body>
+</html>
